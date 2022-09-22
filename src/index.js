@@ -30,7 +30,7 @@ const onSearchInputEl = event => {
         clearElementMarkup(countriesListEl);
         // countriesListEl.innerHTML = '';
 
-        return Notiflix.Notify.warning(
+        return Notiflix.Notify.info(
           'Too many matches found. Please enter a more specific name.'
         );
       }
